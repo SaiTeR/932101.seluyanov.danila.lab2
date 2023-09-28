@@ -1,0 +1,21 @@
+.main{
+    display:flex;
+    justify-content: center;
+     
+}
+
+.blue-box{
+    width: 600px;
+    background-color: blue;
+    color: white;
+
+}
+
+.blue-box p{
+    margin:0;
+}
+
+
+
+
+

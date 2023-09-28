@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@media (max-width: 1000px){
+    .head{
+        flex-direction: column;
+    }
+
+    .list{
+        max-width: 25%;
+    }
+}
+
+.head{
+    display: flex;
+
+    margin: 0.5em;
+
+    border: 1px solid green;
+
+    background-color: aqua;
+
+    /* flex-shrink: 0; */
+}
+
+.left-side{
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    flex-shrink: 0;
+}
+
+.list{
+    background-color: wheat;
+    width: 99%;
+    height: 90px
+}
+
+.list ul{
+    padding-left: 50px;
+    padding-top:  20px; 
+    padding-bottom: 20px;
+}
+
+.text{
+    width: 80%;
+    background-color: gray;
+}

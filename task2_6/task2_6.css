@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.green-box{
+    width: 500px;
+    /* background-color: green; */
+    color: black;
+    margin: 1em;
+
+}
+
+.green-box p{
+    margin:0;
+}
+
+.blue-box{
+    /* background-color: white; */
+    border: 1em;
+    border-color: blue;
+    border-style: solid;
+
+    width: 400px;
+    padding: 2em;
+    color: black;
+    margin: 1em;
+
+    
+}
+
+.blue-box p{
+    margin: 20px
+}
+
+
+

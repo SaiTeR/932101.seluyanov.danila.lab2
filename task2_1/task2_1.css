@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #C8FC98 - светло зеленыцй */
+.header{
+    background-color: #EAEAEA; height: 90px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left-column{
+    background-color: #C8FC98;
+    width: 200px;
+
+    flex-shrink: 0;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+
+.content-column{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    line-height: 24px;
+
+}
+
+
+.footer{
+    background-color: black;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer a {
+    color: yellow;
+    line-height: 2;
+}

@@ -1,0 +1,21 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.aqua-box{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.prop-box{
+    background-color: wheat;
+    
+    clear: left;
+}

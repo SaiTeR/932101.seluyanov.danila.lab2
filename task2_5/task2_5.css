@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.green-box{
+    width: 500px;
+    background-color: green;
+    color: white;
+    margin: 1em;
+
+}
+
+.green-box p{
+    margin:0;
+}
+
+.blue-box{
+    background-color: blue;
+    width: 600px;
+    padding: 2em;
+    border: 2em;
+    color: white;
+    flex-shrink: 0;
+    margin: 1em;
+}
+
+
+

@@ -1,0 +1,17 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+.main{
+    background-color: aqua;
+    border: 1px solid green;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main p{
+    margin: 0;
+}
